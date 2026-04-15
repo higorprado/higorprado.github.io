@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="latte">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Higor Prado -- Software &amp; Data Engineer</title>
+  <meta name="description" content="Higor Prado is a Software & Data Engineer with 10+ years of experience in data infrastructure, cloud platforms, and ML systems.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+  <!-- Theme Toggle -->
+  <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+    <svg class="icon-moon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+    </svg>
+    <svg class="icon-sun" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="12" cy="12" r="5"/>
+      <line x1="12" y1="1" x2="12" y2="3"/>
+      <line x1="12" y1="21" x2="12" y2="23"/>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+      <line x1="1" y1="12" x2="3" y2="12"/>
+      <line x1="21" y1="12" x2="23" y2="12"/>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+    </svg>
+  </button>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content fade-in">
+        <h1>Higor Prado</h1>
+        <p class="role">&gt; Software &amp; Data Engineer</p>
+        <p class="tagline">
+          Building data infrastructure, ML pipelines, and distributed systems.
+          10+ years shipping production software across cloud platforms, with a
+          passion for clean architecture and developer experience.
+        </p>
+        <div class="hero-links">
+          <a href="https://github.com/higorprado" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            GitHub
+          </a>
+          <a href="https://linkedin.com/in/higorevop" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <a href="mailto:higorevop@gmail.com">
+            <svg viewBox="0 0 24 24"><path d="M2 4h20v16H2V4zm2 2v.01L12 13l8-6.99V6H4zm0 2.83V18h16V8.83l-8 7-8-7z"/></svg>
+            Email
+          </a>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Years of Experience</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">PMP</div>
+            <div class="stat-label">Certified</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">7</div>
+            <div class="stat-label">Years Teaching</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">3</div>
+            <div class="stat-label">Publications</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="fade-in">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category fade-in">
+          <h3>Data Engineering</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Apache Airflow</span>
+            <span class="skill-tag">Apache Spark</span>
+            <span class="skill-tag">Kafka</span>
+            <span class="skill-tag">BigQuery</span>
+            <span class="skill-tag">ETL</span>
+            <span class="skill-tag">Data Lakes</span>
+          </div>
+        </div>
+        <div class="skill-category fade-in">
+          <h3>Backend</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">FastAPI</span>
+            <span class="skill-tag">Django</span>
+            <span class="skill-tag">Flask</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">Redis</span>
+          </div>
+        </div>
+        <div class="skill-category fade-in">
+          <h3>Cloud &amp; Infra</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">GCP</span>
+            <span class="skill-tag">Kubernetes</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Terraform</span>
+            <span class="skill-tag">CI/CD</span>
+          </div>
+        </div>
+        <div class="skill-category fade-in">
+          <h3>AI &amp; ML</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">TensorFlow</span>
+            <span class="skill-tag">PyTorch</span>
+            <span class="skill-tag">Computer Vision</span>
+            <span class="skill-tag">scikit-learn</span>
+            <span class="skill-tag">LLMs</span>
+          </div>
+        </div>
+        <div class="skill-category fade-in">
+          <h3>Other</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Linux</span>
+            <span class="skill-tag">NixOS</span>
+            <span class="skill-tag">Rust</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">Go</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <div class="container">
+      <h2 class="fade-in">Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item fade-in">
+          <div class="period">2025 -- present</div>
+          <h3>Senior Software Engineer | Data Engineer</h3>
+          <div class="company">levva / Azul Airlines</div>
+          <ul>
+            <li>Building data infrastructure and ML pipelines for aviation operations</li>
+            <li>Designing distributed systems on cloud platforms at scale</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="period">2023 -- 2025</div>
+          <h3>Tech Lead + Senior Software Engineer</h3>
+          <div class="company">Softfocus</div>
+          <ul>
+            <li>Led technical decisions for data platform serving enterprise clients</li>
+            <li>Architected ETL pipelines processing millions of records daily</li>
+            <li>Mentored engineering team on best practices and clean architecture</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="period">2017 -- 2024</div>
+          <h3>Teacher</h3>
+          <div class="company">Data Science Academy</div>
+          <ul>
+            <li>Taught data engineering, ML, and software architecture courses</li>
+            <li>Developed curriculum for Python, SQL, and cloud computing tracks</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="period">2022 -- 2023</div>
+          <h3>Senior Software Engineer | Data Engineer</h3>
+          <div class="company">VOLL</div>
+          <ul>
+            <li>Built real-time data processing pipelines with Kafka and Spark</li>
+            <li>Designed and maintained data lake architecture on AWS</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="period">2018 -- 2021</div>
+          <h3>Tech Lead &amp; Co-Founder</h3>
+          <div class="company">Hevoparmm Corp</div>
+          <ul>
+            <li>Co-founded tech startup focused on computer vision and AI solutions</li>
+            <li>Led full-stack development from prototype to production</li>
+            <li>Managed a distributed engineering team across multiple projects</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="period">2011 -- 2018</div>
+          <h3>Senior Software Engineer</h3>
+          <div class="company">Prodemge</div>
+          <ul>
+            <li>Developed enterprise systems for the state government of Minas Gerais</li>
+            <li>Built high-availability Java and Python applications serving millions of citizens</li>
+            <li>Designed database architectures and integration layers</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="period">2010 -- 2011</div>
+          <h3>Junior Software Engineer</h3>
+          <div class="company">Teknisa</div>
+          <ul>
+            <li>Developed ERP modules and business logic in Java</li>
+            <li>Started career in enterprise software development</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GitHub Activity -->
+  <section id="github">
+    <div class="container">
+      <h2 class="fade-in">GitHub Activity</h2>
+      <div class="contributions-wrapper fade-in">
+        <img id="contribution-chart" src="" alt="GitHub contribution graph" width="720" height="120">
+      </div>
+
+      <h3 class="fade-in" style="margin-top: 2rem; color: var(--ctp-subtext1);">Featured Repos</h3>
+      <div class="repo-grid">
+        <div class="repo-card fade-in">
+          <h3><a href="https://github.com/higorprado/narratype" target="_blank" rel="noopener noreferrer">narratype</a></h3>
+          <p class="repo-desc">TypeScript library for structured narrative generation and type-safe story building.</p>
+          <div class="repo-meta">
+            <span><span class="lang-dot" style="background: #3178c6;"></span>TypeScript</span>
+          </div>
+        </div>
+        <div class="repo-card fade-in">
+          <h3><a href="https://github.com/higorprado/dqtensor" target="_blank" rel="noopener noreferrer">dqtensor</a></h3>
+          <p class="repo-desc">Differentiable quantum tensor network library in Rust.</p>
+          <div class="repo-meta">
+            <span><span class="lang-dot" style="background: #dea584;"></span>Rust</span>
+            <span>40 stars</span>
+          </div>
+        </div>
+        <div class="repo-card fade-in">
+          <h3><a href="https://github.com/higorprado/claude-safe" target="_blank" rel="noopener noreferrer">claude-safe</a></h3>
+          <p class="repo-desc">Safety guardrails and sandboxing utilities for Claude AI interactions.</p>
+          <div class="repo-meta">
+            <span><span class="lang-dot" style="background: #89e051;"></span>Shell</span>
+          </div>
+        </div>
+        <div class="repo-card fade-in">
+          <h3><a href="https://github.com/higorprado/dms-awww-integration" target="_blank" rel="noopener noreferrer">dms-awww-integration</a></h3>
+          <p class="repo-desc">Rust-based integration service for document management and archiving workflows.</p>
+          <div class="repo-meta">
+            <span><span class="lang-dot" style="background: #dea584;"></span>Rust</span>
+          </div>
+        </div>
+        <div class="repo-card fade-in">
+          <h3><a href="https://github.com/higorprado/predator-tui" target="_blank" rel="noopener noreferrer">predator-tui</a></h3>
+          <p class="repo-desc">Terminal UI predator game built with Go and the tcell framework.</p>
+          <div class="repo-meta">
+            <span><span class="lang-dot" style="background: #00ADD8;"></span>Go</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="https://github.com/higorprado" target="_blank" rel="noopener noreferrer" class="github-link fade-in">
+        <svg viewBox="0 0 24 24" style="width:18px;height:18px;fill:currentColor;"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        View all repositories
+      </a>
+    </div>
+  </section>
+
+  <!-- Education & Certifications -->
+  <section id="education">
+    <div class="container">
+      <h2 class="fade-in">Education &amp; Certifications</h2>
+      <div class="education-grid">
+        <div class="edu-card fade-in">
+          <h3>B.Sc. Computer Science</h3>
+          <div class="edu-institution">PUC Minas</div>
+          <div class="edu-period">Graduated</div>
+        </div>
+        <div class="edu-card fade-in">
+          <h3>Software Architecture</h3>
+          <div class="edu-institution">Full Cycle</div>
+          <div class="edu-period">Specialization</div>
+        </div>
+        <div class="edu-card fade-in">
+          <h3>Data Engineer</h3>
+          <div class="edu-institution">PUC Minas</div>
+          <div class="edu-period">Specialization</div>
+        </div>
+      </div>
+
+      <div class="cert-list fade-in">
+        <span class="cert-badge">PMP</span>
+        <span class="cert-badge">PSM I</span>
+        <span class="cert-badge">ITIL</span>
+        <span class="cert-badge">Deep Learning Nanodegree</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications -->
+  <section id="publications">
+    <div class="container">
+      <h2 class="fade-in">Publications</h2>
+      <div class="publication-list">
+        <div class="publication-item fade-in">
+          <h3><a href="https://www.linkedin.com/in/higorevop/details/publications/" target="_blank" rel="noopener noreferrer">Research on software engineering practices and data-driven development</a></h3>
+          <p class="pub-venue">Academic and professional publications</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="https://github.com/higorprado" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+        <a href="https://linkedin.com/in/higorevop" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="mailto:higorevop@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24"><path d="M2 4h20v16H2V4zm2 2v.01L12 13l8-6.99V6H4zm0 2.83V18h16V8.83l-8 7-8-7z"/></svg>
+        </a>
+      </div>
+      <p class="footer-text">
+        Built with <a href="https://catppuccin.com" target="_blank" rel="noopener noreferrer">Catppuccin</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
