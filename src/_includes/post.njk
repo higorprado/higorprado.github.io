@@ -1,0 +1,17 @@
+---
+layout: base.njk
+---
+<section class="blog-post">
+  <div class="container">
+    <div class="fade-in">
+      <a href="/blog/" class="blog-back-link">&larr; Back to blog</a>
+      <h1>{{ title }}</h1>
+      <div class="blog-post-meta">
+        <time datetime="{{ date | dateToIso }}">{{ date | dateDisplay }}</time>
+      </div>
+    </div>
+    <div class="blog-content fade-in">
+      {{ content | safe }}
+    </div>
+  </div>
+</section>

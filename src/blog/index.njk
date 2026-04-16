@@ -1,0 +1,30 @@
+---
+layout: base.njk
+title: Blog
+description: Writing about data engineering, distributed systems, and software architecture.
+---
+
+<section class="blog-list">
+  <div class="container">
+    <h2 class="fade-in">Blog</h2>
+    {% if collections.posts.length > 0 %}
+    <ul class="blog-list-posts fade-in">
+      {% for post in collections.posts %}
+      <li class="blog-post-item">
+        <a href="{{ post.url }}">
+          <h3>{{ post.data.title }}</h3>
+          <span class="blog-post-meta">
+            <time datetime="{{ post.date | dateToIso }}">{{ post.date | dateDisplay }}</time>
+          </span>
+          {% if post.data.description %}
+          <p class="blog-post-excerpt">{{ post.data.description }}</p>
+          {% endif %}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="fade-in">No posts yet. Check back soon.</p>
+    {% endif %}
+  </div>
+</section>
